@@ -1,14 +1,3 @@
-# AutoCreateChangelog
-
-> 1. 修改package.json文件内的版本号信息（version）
-
-> 2. npm init -y 初始化
-
-> 3. npm i 安装对应npm包
-
-> 4. 依次执行 npm run  release 和 npm run changelog 即可生成 CHANGELOG.MD 文件
-
-```json
 {
 	"version": "1.0.19",
 	"scripts": {
@@ -41,4 +30,3 @@
 		}
 	}
 }
-```
